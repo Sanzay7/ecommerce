@@ -1,6 +1,7 @@
+
 header {
     min-height: 10vh;
-    background: rgb(70, 246, 6);
+    background: rgb(31, 225, 250);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +12,7 @@ header {
   header img {
     height: 100px;
     width: 100px;
-    box-sizing: border-box;
+    padding: 10px;
   }
 
   .navigation-links {
@@ -45,11 +46,13 @@ header {
   
   h2 {
     text-align: center;
-    color: #ffffff;
+    color: black;
   }
   .search-btn,
   .close-btn {
-    padding: 1px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
   }
   
   .search-container {
@@ -57,6 +60,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 10px;
+
   }
   
   .products {
@@ -83,7 +87,7 @@ header {
   }
 
   main{
-    background-color: #000000;
+    background-color: rgb(238, 238, 238);
     
   }
 
@@ -93,9 +97,10 @@ header {
   }
 
   .icons {
-    
+    padding: 11px; 
     justify-content: center;
     display: flex;
+
     
   }
   
