@@ -1,0 +1,35 @@
+*>*,body,html{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+   padding:20px;
+   margin: 0 auto;
+}
+li{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border:1px solid rgb(68, 220, 101);
+    border-radius: 10px;
+}
+
+
+.cart-items{
+    padding:100px;
+    width:90%;
+    margin: 0 auto;
+}
+
+.cart-item-image {
+  width: 150px; 
+  height: auto;  
+  object-fit: cover;  
+  margin-right: 10px; 
+}
