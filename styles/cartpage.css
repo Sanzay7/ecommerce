@@ -2,6 +2,20 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  background-color: rgb(212, 212, 212);
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+h1 mark {
+  background-color: rgb(0, 168, 3);
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 5px;
 }
 ul{
     list-style: none;
@@ -16,7 +30,7 @@ li{
     padding: 10px;
     text-align: center;
     justify-content: center;
-    border:1px solid rgb(68, 220, 101);
+    border:3px solid rgb(0, 0, 0);
     border-radius: 10px;
 }
 
@@ -26,10 +40,33 @@ li{
     width:90%;
     margin: 0 auto;
 }
+button {
+  margin-left: 22px;
+}
+
+button a {
+  /* background-color: rgb(0, 0, 0); */
+  color: rgb(8, 8, 8);
+  border-radius: 0px;
+  /* margin-left: 22px; */
+  /* padding: 7px; */
+  
+}
+button:hover a{
+  background-color: rgb(0, 168, 3);
+}
 
 .cart-item-image {
   width: 150px; 
   height: auto;  
   object-fit: cover;  
   margin-right: 10px; 
+}
+
+button {
+  /* background-color: black; */
+  color: rgb(0, 0, 0);
+}
+button:hover {
+  background-color: rgb(255, 0, 0);
 }

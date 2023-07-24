@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 header {
-    min-height: 10vh;
-    background: rgb(31, 225, 250);
+  /* position: fixed; */
+    height: 13vh;
+    width: 100%;
+    min-height: 7vh;
+    background: rgb(255, 153, 0);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,9 +17,9 @@ header {
   }
 
   header img {
-    height: 100px;
-    width: 100px;
-    padding: 15px;
+    height: 90px;
+    width: 90px;
+    padding: 10px;
     border-radius: 50%;
   }
 
@@ -27,14 +30,14 @@ header {
     padding: 0%;
     margin: 0%;
   }
-  
+
   .navigation-links li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
   }
 
   .navigation-links li a:hover{
-    color: #000000;
+    color: #8a8a8a;
   }
   
   .fa-brands {
@@ -52,6 +55,7 @@ header {
   h2 {
     text-align: center;
     color: black;
+    
   }
  
   
@@ -85,6 +89,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+
   }
   
   .card {
@@ -95,6 +100,7 @@ header {
     margin: 10px;
     background-color: #f5f4f4;
     border: 1px solid #f5f4f4;
+    
   }
   
   .card img {
@@ -103,14 +109,21 @@ header {
     object-fit: cover;
   }
 
+  .card:hover img{
+    transform: scale(1.04);
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
   main{
     background-color: rgb(238, 238, 238);
-    
+    /* padding-top: 100px; */
   }
 
   footer{
-    height: 100px;
-    background-color: rgb(255, 0, 0);
+    height: 12vh;
+    background-color: rgb(155, 155, 155);
+    width: 100%;
   }
 
   .icons {
@@ -126,6 +139,10 @@ header {
     justify-content: center;
     align-content: center;
 
+  }
+  .cont:hover {
+    color: #ffffff;
+    cursor: pointer;
   }
 #cart-logo {
   font-size: 25px;
